@@ -13,20 +13,46 @@
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#"> About</a>
           </li>
         </ul>
       </div>
     </nav>
+    <br><br>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4" id="left-section">
+          <div class="header">
+            <h1>Create a New Recipe</h1>
+          </div>
+          <br>
+          <div class="left-desc">
+            <p>Become a contributor to our library of recipes by creating your own.</p>
+              <button class="btn btn-info" id="search-btn">Search</button>
+          </div>
+        </div>
+        <div class="col-md-8" id="right-section">
+          <div class="header">
+            <h1>Search Recipes</h1>
+          </div>
+          <br>
+          <div class="right-desc">
+            <p>Search our library of recipes added by our community of contributors.</p>
+              <input type="text" id="search-area" placeholder="Search.."> <font-awesome-icon icon="search"/>
+                <br><br>
+              <button class="btn btn-light">Search</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <style>
 @import './assets/styles/custom.css';
 @import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Heebo:800&display=swap');
   body{
-    background-image:url('../src/assets/images/food-background.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image:url('../src/assets/images/food-background-04.jpg');
   }
 </style>
